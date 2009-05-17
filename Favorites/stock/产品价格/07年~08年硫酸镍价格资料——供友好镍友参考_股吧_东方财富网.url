@@ -1,0 +1,11 @@
+[DEFAULT]
+BASEURL=http://guba20.eastmoney.com/600432,8001481186,guba.html
+[DOC_oblog_Composition]
+BASEURL=http://guba20.eastmoney.com/600432,8001481186,guba.html
+[InternetShortcut]
+URL=http://guba20.eastmoney.com/600432,8001481186,guba.html
+Modified=60F8CCBF2599C8016A
+IconFile=http://guba20.eastmoney.com/favicon.ico
+IconIndex=1
+[MyIE2]
+VisitTimes=1

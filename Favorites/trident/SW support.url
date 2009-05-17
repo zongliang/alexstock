@@ -1,0 +1,5 @@
+[DEFAULT]
+BASEURL=http://172.16.0.15/
+[InternetShortcut]
+URL=http://172.16.0.15/
+Modified=00989D497DE8C801AC

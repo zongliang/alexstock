@@ -1,0 +1,7 @@
+[DEFAULT]
+BASEURL=http://finance.cn.yahoo.com/q?m=HK&s=1088.HK
+[InternetShortcut]
+URL=http://finance.cn.yahoo.com/q?m=HK&s=1088.HK
+Modified=A0E4DECC069AC80197
+IconFile=http://finance.cn.yahoo.com/favicon.ico
+IconIndex=1

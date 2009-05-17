@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://tmtbbs/discuz/index.php
+[InternetShortcut]
+URL=http://tmtbbs/discuz/index.php
+Modified=70E0CD97126DC801FC
+IconFile=http://tmtbbs/favicon.ico
+IconIndex=1
+[MyIE2]
+VisitTimes=4
