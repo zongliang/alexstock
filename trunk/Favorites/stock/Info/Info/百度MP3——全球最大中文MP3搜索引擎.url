@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://mp3.baidu.com/
+[InternetShortcut]
+URL=http://mp3.baidu.com/
+Modified=60602754A120C901C6
+IconFile=http://mp3.baidu.com/favicon.ico
+IconIndex=1
+[MyIE2]
+VisitTimes=1

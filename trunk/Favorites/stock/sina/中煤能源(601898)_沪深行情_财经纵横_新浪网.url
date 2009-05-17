@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://finance.sina.com.cn/realstock/company/sh601898/nc.shtml
+[DOC#152_ifm_ad_5474]
+BASEURL=http://d1.sina.com.cn/sina/nwy/gupiaotubiaozuizhong_58590_cpm.html
+ORIGURL=http://d1.sina.com.cn/sina/nwy/gupiaotubiaozuizhong_58590_cpm.html
+[InternetShortcut]
+URL=http://finance.sina.com.cn/realstock/company/sh601898/nc.shtml
+Modified=60462A1CE59AC80134
+IconFile=http://finance.sina.com.cn/favicon.ico
+IconIndex=1

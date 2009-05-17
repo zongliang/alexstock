@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=https://support.trident.com.cn/hidtv/
+[DOC#100]
+BASEURL=https://support.trident.com.cn/hidtv/toolchain.html
+ORIGURL=updatehistory.html
+[InternetShortcut]
+URL=https://support.trident.com.cn/hidtv/
+Modified=F0EE14865CAFC8014C
+[MyIE2]
+VisitTimes=1
