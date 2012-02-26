@@ -4,6 +4,6 @@ ADSTR2=
 [URL]
 CompanyWebURL=http://www.tdx.com.cn/url/jump.asp?setcode=##SETCODE##&code=xxxxxx
 FreePopURL=http://www.tdx.com.cn/softad/freepop.htm
-HKCenterURL=http://www.tdx.com.cn/url/hk/
 HKJyTimeURL=http://www.hkex.com.hk/chi/market/sec_tradinfo/tradcal/nont10_c.htm
 ZDLogoPopURL=http://www.tdx.com.cn/softad/freepop.htm
+HKCenterURL=http://www.tdx.com.cn/url/hk/
