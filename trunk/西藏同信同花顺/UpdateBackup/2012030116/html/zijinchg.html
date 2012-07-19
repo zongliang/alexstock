@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+
+<style type="text/css">
+<!--
+h2{
+	font-size: 22pt;
+ }
+table {  
+	border: 1; 
+	font-size: 11pt; 
+	text-decoration: none; 	
+	}
+body  {  font-size: 11pt; text-decoration: none}
+-->
+</style>
+<script language="JavaScript" src="comm.js"></script>
+<script language="JavaScript" for="window" event="onload">
+	handleData();
+</script>
+<script language="JavaScript">
+<!--以下是JavaScript编写的XML处理函数
+	var g_head		= new initArray('日期', '操作类型', '流入', '流出', '资金余额');	
+	var g_col		= new initArray('成交日期', '操作', '交易金额[@InCome="1"]', '交易金额[@InCome="0"]', '资金余额');
+	var g_fmt		= new initArray('align="left"', 'align="left"', 'align="right"', 'align="right"', 'align="right"');
+	var g_sort		= new initArray('资金帐号ID','成交日期','证券代码','记录号');
+	var g_filter    = "资金帐号ID";
+	var g_decimal   = 3;
+	var g_xmlfile	= "zijinchg.xml";
+	var g_content   = "";
+	
+	var g_curPage	= 0;
+	var g_PagesNumber= 1;
+	var g_NumberEveryPage = 12;
+
+	function displaySumItem(root, string){
+		if(root == null || string == null)
+			return;
+
+		var sumFilter;
+		var sum1, sum2;
+		g_content += ('<tr bgcolor="#EAF3F4">');
+
+		displayCell('小计');
+		displayCell();
+		sumFilter = '//Item[资金帐号ID = "' + string + '" and ' + '交易金额[@InCome="1"]]';
+		sum1 = formatNumber(calculateSum(root, sumFilter , '交易金额'), g_decimal);
+		displayCell(sum1, 'align="right"');
+
+		sumFilter = '//Item[资金帐号ID = "' + string + '" and ' + '交易金额[@InCome="0"]]';
+		sum2 = formatNumber(calculateSum(root, sumFilter , '交易金额'), g_decimal);
+		displayCell(sum2, 'align="right"');
+
+		var sum = formatNumber(sum1 - sum2, g_decimal);
+		displayCell('资金差额:' + sum,'align="right"');
+
+		g_content += ('</tr>');
+	}
+
+	function displaySubHead(string, length){
+		g_content += ('<tr>');
+		g_content += ('<td colspan=' + length + '>');
+		g_content += ('资金帐号：' + string);
+		g_content += ('</td>');
+		g_content += ('</tr>');
+	}
+	function handleData(){
+		g_content = '';
+		displayTable(g_xmlfile, g_head, g_col, g_fmt, g_sort, g_filter);
+		panel.innerHTML = g_content;
+	}
+-->
+</script>
+</HEAD>
+
+<BODY oncontextmenu="return false" bgcolor="#f5f5f5">
+	<H2 align="center">证券资金流水报表</H2>
+<table cellspacing="1" width="700" align="center" rules="rows" cellpadding="0" bordercolordark="#666666" bordercolorlight="#666666" bgcolor="#f5f5f5">
+	<tr>
+		<td><script>AddDate();</script></td>
+	</tr>
+	<tr><td>
+		<div id="panel"></div>
+		</td>
+	</tr>
+</table>
+
+</BODY>
+</HTML>

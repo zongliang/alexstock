@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>搜索列表</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<$LIST-META$>
+<style type="text/css">
+<!--
+b {  font-size: 16px; font-weight: bold; color: #0000FF}
+a:active { color: #0000FF; text-decoration: underline; font-size: 12px; font-family: "宋体" }
+a:hover { color: #0000FF; text-decoration: underline; font-size: 12px; font-family: "宋体" }
+a:link { color: #0000FF; text-decoration: underline; font-size: 12px; font-family: "宋体" }
+a:visited { color: #0000FF; text-decoration: underline; font-size: 12px; font-family: "宋体" }
+-->
+</style>
+<script>
+<!--
+var OldTab = null;
+function Change(Obj)
+{
+	if (OldTab != null)
+	{
+		OldTab.style.color = "#0000FF"
+		OldTab.style.fontSize = "12px"
+ 		OldTab.style.textDecoration	= "underline"
+		OldTab.style.textDecorationUnderline = true;	
+	}
+	Obj.style.color = "#FF0000";
+	Obj.style.fontSize = "14px"
+ 	Obj.style.textDecoration = "none"
+	Obj.style.textDecorationUnderline = false;
+	OldTab = Obj	
+}
+-->
+</script>
+</head><body bgcolor="#FFFFFF" text="#000000">
+<DIV class><font size="2"><$LIST-TITLE$>目前符合条目：<$LIST-COUNT$></font> 
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR vAlign=top align=middle>
+<TD vAlign=bottom noWrap>
+<FONT size=-1>页数检索:</FONT>
+<$LIST-LIST$>  
+</TR>
+</TBODY>
+</TABLE>
+</DIV>
+</body>
+</html>
