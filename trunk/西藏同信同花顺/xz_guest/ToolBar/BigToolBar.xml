@@ -36,15 +36,6 @@
 			<type>2</type>
 			<width>30</width>
 			<height>40</height>
-			<show>1</show></button>
-		<button>
-			<name>测速</name>
-			<id>31255</id>
-			<tip>服务器测速</tip>
-			<img>4</img>
-			<type>1</type>
-			<width>30</width>
-			<height>40</height>
 			<show>1</show></button></group>
 	<group name="委托" order="2">
 		<button>
@@ -85,28 +76,10 @@
 			<height>40</height>
 			<show>1</show></button>
 		<button>
-			<name>F10</name>
-			<id>33041</id>
-			<tip>F10</tip>
-			<img>13</img>
-			<type>2</type>
-			<width>30</width>
-			<height>40</height>
-			<show>1</show></button>
-		<button>
 			<name>画线</name>
 			<id>41902</id>
 			<tip>画线工具板</tip>
 			<img>16</img>
-			<type>2</type>
-			<width>30</width>
-			<height>40</height>
-			<show>1</show></button>
-		<button>
-			<name>公式</name>
-			<id>31236</id>
-			<tip>公式管理</tip>
-			<img>17</img>
 			<type>2</type>
 			<width>30</width>
 			<height>40</height>
