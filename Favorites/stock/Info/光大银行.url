@@ -1,8 +1,0 @@
-[DEFAULT]
-BASEURL=http://www.cebbank.com/ceb/html/news/fund/index.jsp
-[DOC#310]
-BASEURL=http://www.cebbank.com/ceb/html/news/f_exchange/onlinevoteresultsearch.action?id=ff80808102230b2f01022351e7f70015
-ORIGURL=../f_exchange/vote.jsp?resourcename=jijin
-[InternetShortcut]
-URL=http://www.cebbank.com/ceb/html/news/fund/index.jsp
-Modified=A02C2EBD3AF8C701B1
